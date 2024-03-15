@@ -1,0 +1,16 @@
+﻿<Window x:Class="myDictionary.DeleteWord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="DeleteWord" Height="450" Width="800">
+    <Grid  Background="#FF6347CC">
+        <TextBox x:Name="inputBox" FontSize="15" FontFamily="Engravers MT" Margin="208,114,214,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Foreground="#FFEDE3E3" Background="{x:Null}" />
+        <Button x:Name="deleteButton" Content="Delete" Margin="290,258,311,0" VerticalAlignment="Top" Height="58" Click="deleteButton_Click" Foreground="#FFF3E5E5" Background="{x:Null}"/>
+        <Label Content="What word would you like to delete?" FontSize="15" FontFamily="Engravers MT" Margin="180,68,179,0" VerticalAlignment="Top" Foreground="#FFEAE1E1"/>
+        <Label Content="Are you sure?" FontSize="15" FontFamily="Engravers MT" Margin="301,0,322,0" VerticalAlignment="Center" Foreground="#FFEAE1E1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="myDictionary.UserPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary" xmlns:controls="clr-namespace:System.Windows.Controls;assembly=DotNetProjects.Input.Toolkit"
+        mc:Ignorable="d"
+        Title="UserPage" Height="450" Width="800">
+    <Grid  Background="#FF6347CC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="96*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="97*"/>
+        </Grid.RowDefinitions>
+        <Label Content="What exactly are you looking for?" HorizontalAlignment="Left" Margin="132,60,0,0" VerticalAlignment="Top" Width="563" RenderTransformOrigin="1.024,0.459" FontSize="20" FontFamily="Engravers MT" BorderBrush="{x:Null}" Foreground="#FFFDF5F5"/>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="586,140,0,0" VerticalAlignment="Top" Height="41" Width="99" FontSize="14" Click="searchButton_Click" Background="{x:Null}" Foreground="#FFF9F0F0"/>
+        <TextBlock x:Name="outputBox" HorizontalAlignment="Left" Margin="208,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="117" Width="535" Foreground="#FFEFE0E0" Grid.RowSpan="2" Grid.Row="1"/>
+        <Image x:Name="imageBox" HorizontalAlignment="Left" Height="100" Margin="49,2,0,0" VerticalAlignment="Top" Width="100" Grid.Row="2"/>
+        <TextBlock x:Name="categoryBox" HorizontalAlignment="Left" Margin="49,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="694" Grid.Row="2" Background="{x:Null}" FontWeight="Bold" Foreground="#FFE8E5E5"/>
+        <StackPanel x:Name="inputBox" Orientation="Vertical" Margin="219,149,276,37" Grid.RowSpan="2"  >
+            <controls:AutoCompleteBox  x:Name="autoCompleteBox" Width="284"/>
+        </StackPanel>
+        <ComboBox  x:Name="categoryBox1" HorizontalAlignment="Left" Margin="10,148,0,0" Width="159" SelectionChanged="categoryBox1_SelectionChanged">
+           
+        </ComboBox>
+        <Label Content="Choose Category" HorizontalAlignment="Left" Margin="39,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.178,0.7" Foreground="#FFF7EEEE"/>
+        <Label Content="Catgeory:" HorizontalAlignment="Left" Margin="39,119,0,0" Grid.Row="2" VerticalAlignment="Top" Width="187" Foreground="#FFF3E7E7"/>
+
+
+    </Grid>
+</Window>

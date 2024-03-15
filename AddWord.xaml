@@ -1,0 +1,17 @@
+﻿<Window x:Class="myDictionary.AddWord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="AddWord" Height="450" Width="800">
+    <Grid  Background="#FF6347CC">
+        <Button x:Name="existingButton" Content="existing" HorizontalAlignment="Left" Margin="106,117,0,254" FontSize="16" Click="existingButton_Click" Width="205" Foreground="#FFEFECEC" Background="{x:Null}"/>
+        <Button x:Name="newCategoryButton" Content="new" Margin="489,117,106,253" FontSize="16" Click="newCategoryButton_Click" Foreground="#FFFDF8F8" Background="{x:Null}"/>
+        <ListBox x:Name="categoryList" Margin="340,273,340,27" Background="{x:Null}" Foreground="#FFFBF4F4"/>
+        <Label Content="Do you want a new or existing catgeory?" FontSize="20" FontFamily="Engravers MT" BorderBrush="{x:Null}" HorizontalAlignment="Left" Margin="77,35,0,0" VerticalAlignment="Top" Width="676" Foreground="#FFF3EDED"/>
+        <Label Content="These are the categories that already exist:" FontSize="20" FontFamily="Engravers MT" BorderBrush="{x:Null}" Margin="47,214,38,0" VerticalAlignment="Top" Foreground="#FFF3EDED"/>
+
+    </Grid>
+</Window>

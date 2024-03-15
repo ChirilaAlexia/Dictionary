@@ -1,0 +1,16 @@
+vehicle car A vehicle that has wheels, carries a small number of passengers, and is moved by an engine or a motor. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\car.jpg
+plant sunflower A tall, yellow flower with a large, black centre full of seeds. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\sunflower.jpg
+animal dolphin An intelligent animal that lives in the sea, breathes air, and looks like a large, smooth, grey fish. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\dolphin.jpg
+animal cat A small animal with fur, four legs, and a tail that is kept as a pet. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\cat.jpg
+sport football A game in which two teams of players kick a round ball and try to score goals. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\football.jpg
+technology telephone A device with which you can call, text or play games. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\phone.jpg
+animal bird Animal distinguished by the possession of feathers, wings and typically by being able to fly. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\bird.jpg
+food burger A dish consisting of a flat round piece of meat, that is fried or grilled and served in a split bun or roll with various condiments and toppings. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\burger.jpg
+animal dog Animal closely related to the gray wolf that has long been domesticated as a pet, occurs in a variety of sizes, colors and is sometimes trained to perform special tasks D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\dog.jpg
+clothing dress A one-piece clothing that covers the body and extends down over the thighs or legs, worn typically by women and girls. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\dress.jpg
+music guitar A music instrument with strings, usually used at camp fire. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\guitar.jpg
+plant rose A flower, often with a pleasant smell, which grows on a bush with stems that have sharp points called thorns on them. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\rose.jpg
+family mother The women who is part of family and gives life to the kids. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\NotFound.png
+family father The man who is part of the family and gives life to the kids. D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\NotFound.png
+planet sun The shining star on the sky, visible on day-time D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\sun.jpg
+planet moon Earth's satellite, visible on night-time D:\facultate\anul2\sem2\MAP\GasesteCuvinteInatorul\myDictionary\photos\moon.jpg

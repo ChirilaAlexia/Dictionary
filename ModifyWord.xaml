@@ -1,0 +1,24 @@
+﻿<Window x:Class="myDictionary.ModifyWord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="ModifyWord" Height="450" Width="800">
+    <Grid  Background="#FF6347CC">
+        <TextBox x:Name="inBox" HorizontalAlignment="Left" Margin="126,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="359" Height="15" Foreground="#FFFDF5F5" Background="{x:Null}"/>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="541,80,0,0" VerticalAlignment="Top" Height="35" Width="153" Click="searchButton_Click" Foreground="#FFEFE4E4" Background="{x:Null}"/>
+        <Label Content="Name:" FontSize="15" FontFamily="Engravers MT"  HorizontalAlignment="Left" Margin="45,146,0,0" VerticalAlignment="Top" Foreground="#FFEFE6E6"/>
+        <Label Content="Description:" Foreground="#FFEFE6E6" FontSize="15" FontFamily="Engravers MT" HorizontalAlignment="Left" Margin="45,201,0,0" VerticalAlignment="Top" />
+        <Label Content="Photography:" Foreground="#FFEFE6E6" FontSize="15" FontFamily="Engravers MT"  HorizontalAlignment="Left" Margin="45,249,0,0" VerticalAlignment="Top" />
+        <Label Content="Category:" Foreground="#FFEFE6E6" FontSize="15" FontFamily="Engravers MT"  HorizontalAlignment="Left" Margin="45,292,0,0" VerticalAlignment="Top" />
+        <Label Content="What word would you like to modify?"  FontSize="20" FontFamily="Engravers MT" Margin="105,22,106,0" VerticalAlignment="Top" Foreground="#FFECE5E5"/>
+        <Button x:Name="modifyButton" Content="Modify" HorizontalAlignment="Left" Margin="306,349,0,0" VerticalAlignment="Top" Height="35" Width="152" Click="searchButton_Click" Foreground="#FFEFE4E4" Background="{x:Null}"/>
+        <TextBox x:Name="nameBox" HorizontalAlignment="Left" Margin="250,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="23" Foreground="#FFFDF5F5" Background="{x:Null}"/>
+        <TextBox x:Name="descriptionBox" HorizontalAlignment="Left" Margin="250,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="41" Foreground="#FFFDF5F5" Background="{x:Null}"/>
+        <TextBox x:Name="pathBox" HorizontalAlignment="Left" Margin="250,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="33" Foreground="#FFFDF5F5" Background="{x:Null}"/>
+        <TextBox x:Name="categoryBox" HorizontalAlignment="Left" Margin="250,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="20" Foreground="#FFFDF5F5" Background="{x:Null}"/>
+
+    </Grid>
+</Window>
